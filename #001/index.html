@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <div class="outer">
+            <div class="outer1">
+                    <div class="grey-top"></div>
+                    <div class="profile">
+                        <div class="profile-img"></div>
+                        <div class="profile-btn" style="margin-right: 50px;">
+                            <button class="small-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+                                    <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z"/>
+                                    <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z"/>
+                                </svg> Copy link
+                            </button>
+                            <button class="small-btn" >View profile</button>
+                        </div>
+                    </div>
+                    <div class="profile-details">
+                        <h1>Timeless Dave</h1>
+                        <p>timeless@devOps.com</p>
+                    </div>
+                    <div class="name">
+                        <div class="form-txt"><h4>Name</h4></div>
+                        <div class="name-btn">
+                            <button><h3>Timeless</h3></button>
+                            <button><h3>Dave</h3></button>
+                        </div>
+                    </div>
+                    <div class="email">
+                        <div class="form-txt"><h4>Email address</h4></div>
+                        <div class="email-btn">
+                            <button>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                                </svg> <h3>timeless@devOps.com</h3>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="username">
+                        <div class="form-txt"><h4>Username</h4></div>
+                        <div class="username-btn">
+                            <button id="btn1"><h3>devOps.com/</h3></button>
+                            <button id="btn2">
+                                <h3>timeless</h3>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-patch-check-fill tick" viewBox="0 0 16 16">
+                                    <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="profile-photo">
+                        <div class="form-txt"><h4>Profile photo</h4></div>
+                        <div class="profile-img-btn">
+                            <div class="profile-img" id="dp"></div>
+                            <button class="small-btn"><h3>Click to replace</h3></button>
+                        </div>
+                    </div>
+                    <div class="foot-btns">
+                        <div class="form-txt">
+                            <button style="border: none; color: red; background-color: rgb(255, 230, 230);">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-trash3" viewBox="0 0 16 16">
+                                    <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47M8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5"/>
+                                </svg> Delete user
+                            </button>
+                        </div>
+                        <div class="foot-btn">
+                            <button>Cancel</button>
+                            <button style="color: white; background-color: black; border: none;">Save changes</button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
